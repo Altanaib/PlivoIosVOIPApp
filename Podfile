@@ -1,0 +1,21 @@
+platform :ios, '10.0'
+
+target 'SwiftVoiceCallingApp' do
+	
+  use_frameworks!
+  pod 'APAddressBook/Swift'
+  pod 'ReachabilitySwift', '~> 3'
+  
+  # Pods for SwiftVoiceCallingApp
+
+  target 'SwiftVoiceCallingAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SwiftVoiceCallingAppUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
